@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threax.Configuration.AzureKeyVault", "Threax.Configuration.AzureKeyVault\Threax.Configuration.AzureKeyVault.csproj", "{DA27939F-3ACE-4085-A662-F46799864BE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA27939F-3ACE-4085-A662-F46799864BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA27939F-3ACE-4085-A662-F46799864BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA27939F-3ACE-4085-A662-F46799864BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA27939F-3ACE-4085-A662-F46799864BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F46E242-13D5-424E-90C1-47069DAE9DB4}
+	EndGlobalSection
+EndGlobal
