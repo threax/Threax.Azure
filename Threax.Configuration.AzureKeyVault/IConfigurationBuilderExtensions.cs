@@ -2,6 +2,7 @@
 using Microsoft.Azure.Services.AppAuthentication;
 using Microsoft.Extensions.Configuration.AzureKeyVault;
 using System;
+using Threax.Azure.Abstractions;
 using Threax.Configuration.AzureKeyVault;
 
 namespace Microsoft.Extensions.Configuration
@@ -11,7 +12,7 @@ namespace Microsoft.Extensions.Configuration
         public static void AddThreaxKeyVaultConfig(this IConfigurationBuilder config, String keyVaultSection = "KeyVault")
         {
             var builtConfig = config.Build();
-            var keyVaultConfig = new ThreaxAzureKeyVaultConfig();
+            var keyVaultConfig = new AzureKeyVaultConfig();
             builtConfig.GetSection(keyVaultSection).Bind(keyVaultConfig);
 
             if (keyVaultConfig.Enabled)

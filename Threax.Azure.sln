@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threax.Configuration.AzureKeyVault", "Threax.Configuration.AzureKeyVault\Threax.Configuration.AzureKeyVault.csproj", "{DA27939F-3ACE-4085-A662-F46799864BE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threax.Configuration.AzureKeyVault", "Threax.Configuration.AzureKeyVault\Threax.Configuration.AzureKeyVault.csproj", "{DA27939F-3ACE-4085-A662-F46799864BE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threax.Configuration.AzureKeyVault.Abstractions", "Threax.Configuration.AzureKeyVault.Abstractions\Threax.Configuration.AzureKeyVault.Abstractions.csproj", "{72438F0C-AEB0-4D32-AE27-EED4EC710283}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threax.Azure.Abstractions", "Threax.Azure.Abstractions\Threax.Azure.Abstractions.csproj", "{9F08774E-FF6E-498F-BB1D-C4CF7F8C0DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threax.AspNetCore.DataProtection.AzureStorage.Ext", "Threax.AspNetCore.DataProtection.AzureStorage.Ext\Threax.AspNetCore.DataProtection.AzureStorage.Ext.csproj", "{F25255A7-4B4C-4D35-96F2-EF49F91FEF23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,14 @@ Global
 		{DA27939F-3ACE-4085-A662-F46799864BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA27939F-3ACE-4085-A662-F46799864BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA27939F-3ACE-4085-A662-F46799864BE8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{72438F0C-AEB0-4D32-AE27-EED4EC710283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72438F0C-AEB0-4D32-AE27-EED4EC710283}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72438F0C-AEB0-4D32-AE27-EED4EC710283}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{72438F0C-AEB0-4D32-AE27-EED4EC710283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F08774E-FF6E-498F-BB1D-C4CF7F8C0DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F08774E-FF6E-498F-BB1D-C4CF7F8C0DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F08774E-FF6E-498F-BB1D-C4CF7F8C0DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F08774E-FF6E-498F-BB1D-C4CF7F8C0DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25255A7-4B4C-4D35-96F2-EF49F91FEF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25255A7-4B4C-4D35-96F2-EF49F91FEF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25255A7-4B4C-4D35-96F2-EF49F91FEF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25255A7-4B4C-4D35-96F2-EF49F91FEF23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Threax.Configuration.AzureKeyVault.Abstractions\Threax.Configuration.AzureKeyVault.Abstractions.csproj" />
+    <ProjectReference Include="..\Threax.Azure.Abstractions\Threax.Azure.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>
