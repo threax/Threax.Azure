@@ -2,11 +2,11 @@
 using Microsoft.Azure.Storage;
 using Microsoft.Azure.Storage.Auth;
 using Microsoft.Azure.Storage.Blob;
-using Microsoft.Extensions.DependencyInjection;
 using System;
+using Threax.AspNetCore.DataProtection.AzureStorage.Ext;
 using Threax.Azure.Abstractions;
 
-namespace Threax.AspNetCore.DataProtection.AzureStorage.Ext
+namespace Microsoft.Extensions.DependencyInjection
 {
     public static class DiExtensions
     {

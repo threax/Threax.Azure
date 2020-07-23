@@ -8,11 +8,6 @@ namespace Threax.Azure.Abstractions
     public class AzureKeyVaultConfig
     {
         /// <summary>
-        /// The name of the section that should be used by convention for the key vault. Value: 'KeyVault'
-        /// </summary>
-        public const String SectionName = "KeyVault";
-
-        /// <summary>
         /// Set this to true to enable looking up secrets from key vault.
         /// </summary>
         public bool Enabled { get; set; }
