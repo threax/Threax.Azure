@@ -24,6 +24,14 @@ Also add a storage section to your appsettings
 ## Threax.Azure.ApplicationInsights
 This library adds support for using application insights with your app.
 
+To integrate this with your app add the following to Startup.cs:
+
+```
+services.AddThreaxAppInsights(o => Configuration.Bind("AppInsights", o));
+```
+
+Using the key "AppInsights" will prevent collisions with the built in "ApplicationInsights" key the Microsoft library uses. You could try using this key for your key to see if it lets you override more options or use the callback function in the registration function. If you do not enable app insights in your config file by setting Enabled to true the services are not added.
+
 ## Threax.Configuration.AzureKeyVault
 This makes it easy to use Azure Key Vault with .Net Core Configuration by implementing some classes used in the documentation. This enables the use of prefixes to only load some of the secrets in the key vault instead of all of them.
 

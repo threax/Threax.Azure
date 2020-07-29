@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.1.0-pre01</Version>
+    <Version>1.1.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Helper functions for data protection in Azure using blob storage.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
