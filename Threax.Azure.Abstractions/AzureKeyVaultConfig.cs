@@ -21,5 +21,10 @@ namespace Threax.Azure.Abstractions
         /// Set to a prefix you want to use to filter secrets. They must be in the format prefix--key.
         /// </summary>
         public String Prefix { get; set; }
+
+        /// <summary>
+        /// A path to a file with the connection string to use. This can be null for no connection string.
+        /// </summary>
+        public String ConnectionStringFile { get; set; }
     }
 }
